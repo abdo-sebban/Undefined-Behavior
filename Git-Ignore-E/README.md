@@ -130,8 +130,7 @@ Unix itself never got its `e` back, `creat()` is still `creat()` today, unchange
 ## Sources / References
 
 - [POSIX `creat()` specification and rationale](https://man7.org/linux/man-pages/man3/creat.3p.html) - IEEE Std 1003.1-2017 / The Open Group Base Specifications
-- [First Edition Unix Programmer's Manual (1971)](https://s3.amazonaws.com/plan9-bell-labs/who/dmr/1stEdman.html) - original documentation, Ken Thompson & Dennis Ritchie
-- Kernighan, Brian W.; Pike, Rob. *The UNIX Programming Environment*. Prentice-Hall, 1984. ISBN 0139376992, p. 204 - source of the "I'd spell creat with an e" quote
+- [First Edition Unix Programmer's Manual (1971)](https://www.singlix.com/trdos/archive/pdf_archive/unix_v1_programmers_manual.pdf) - original documentation, Ken Thompson & Dennis Ritchie
 - [golang-nuts: "Curious about O_CREATE vs O_CREAT"](https://groups.google.com/g/golang-nuts/c/Mo1B9HxTCo4) - Michael Jones's account of asking Ken Thompson to make the change
 - [Go commit `c90d392` - "spell it with an 'e'"](https://github.com/golang/go/commit/c90d392ce3d3203e0c32b3f98d1e68c4c2b4c49b)
 - [Russ Cox, "Go's Version Control History"](https://research.swtch.com/govcs) - context on the commit and Go's early repository history
